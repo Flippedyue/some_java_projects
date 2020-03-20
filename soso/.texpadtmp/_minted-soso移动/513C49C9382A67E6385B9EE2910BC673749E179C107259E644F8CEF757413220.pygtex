@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{o}{\PYGZlt{}}\PYG{n}{environments} \PYG{k}{default}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}development\PYGZdq{}}\PYG{o}{\PYGZgt{}}
+        \PYG{o}{\PYGZlt{}}\PYG{n}{environment} \PYG{n}{id}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}development\PYGZdq{}}\PYG{o}{\PYGZgt{}}
+            \PYG{o}{\PYGZlt{}}\PYG{n}{transactionManager} \PYG{n}{type}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}JDBC\PYGZdq{}}\PYG{o}{/\PYGZgt{}}
+            \PYG{o}{\PYGZlt{}}\PYG{n}{dataSource} \PYG{n}{type}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}POOLED\PYGZdq{}}\PYG{o}{\PYGZgt{}}
+                \PYG{o}{\PYGZlt{}}\PYG{n}{property} \PYG{n}{name}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}driver\PYGZdq{}} \PYG{n}{value}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}com.mysql.jdbc.Driver\PYGZdq{}}\PYG{o}{/\PYGZgt{}}
+                \PYG{o}{\PYGZlt{}}\PYG{n}{property} \PYG{n}{name}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}url\PYGZdq{}} \PYG{n}{value}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}jdbc:mysql://127.0.0.1:3306/soso?}
+\PYG{l+s}{                useUnicode=true\PYGZam{}amp;characterEncoding=utf8\PYGZdq{}}\PYG{o}{/\PYGZgt{}}
+                \PYG{o}{\PYGZlt{}}\PYG{n}{property} \PYG{n}{name}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}username\PYGZdq{}} \PYG{n}{value}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}root\PYGZdq{}}\PYG{o}{/\PYGZgt{}}
+                \PYG{o}{\PYGZlt{}}\PYG{n}{property} \PYG{n}{name}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}password\PYGZdq{}} \PYG{n}{value}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}xxxxxx\PYGZdq{}}\PYG{o}{/\PYGZgt{}}
+            \PYG{o}{\PYGZlt{}/}\PYG{n}{dataSource}\PYG{o}{\PYGZgt{}}
+        \PYG{o}{\PYGZlt{}/}\PYG{n}{environment}\PYG{o}{\PYGZgt{}}
+    \PYG{o}{\PYGZlt{}/}\PYG{n}{environments}\PYG{o}{\PYGZgt{}}
+\end{Verbatim}

@@ -1,0 +1,17 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kd}{function} \PYG{n+nx}{a1}\PYG{p}{()} \PYG{p}{\PYGZob{}}
+    \PYG{n+nx}{\PYGZdl{}}\PYG{p}{.}\PYG{n+nx}{post}\PYG{p}{(\PYGZob{}}
+                \PYG{n+nx}{url}\PYG{o}{:} \PYG{l+s+s2}{\PYGZdq{}\PYGZdl{}\PYGZob{}pageContext.request.contextPath\PYGZcb{}/login/a3\PYGZdq{}}\PYG{p}{,}
+                \PYG{n+nx}{data}\PYG{o}{:} \PYG{p}{\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}cardNumber\PYGZsq{}}\PYG{o}{:} \PYG{n+nx}{\PYGZdl{}}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZsh{}cardNumber\PYGZdq{}}\PYG{p}{).}\PYG{n+nx}{val}\PYG{p}{()\PYGZcb{},}
+                \PYG{n+nx}{success}\PYG{o}{:} \PYG{k+kd}{function} \PYG{p}{(}\PYG{n+nx}{data}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+                    \PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{data}\PYG{p}{.}\PYG{n+nx}{toString}\PYG{p}{());}
+                    \PYG{k}{if} \PYG{p}{(}\PYG{n+nx}{data}\PYG{p}{.}\PYG{n+nx}{toString}\PYG{p}{()} \PYG{o}{===} \PYG{l+s+s1}{\PYGZsq{}OK\PYGZsq{}}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+                        \PYG{n+nx}{\PYGZdl{}}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZsh{}userInfo\PYGZdq{}}\PYG{p}{).}\PYG{n+nx}{css}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}color\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}green\PYGZdq{}}\PYG{p}{);}
+                    \PYG{p}{\PYGZcb{}} \PYG{k}{else} \PYG{p}{\PYGZob{}}
+                        \PYG{n+nx}{\PYGZdl{}}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZsh{}userInfo\PYGZdq{}}\PYG{p}{).}\PYG{n+nx}{css}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}color\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}red\PYGZdq{}}\PYG{p}{);}
+                    \PYG{p}{\PYGZcb{}}
+                    \PYG{n+nx}{\PYGZdl{}}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZsh{}userInfo\PYGZdq{}}\PYG{p}{).}\PYG{n+nx}{html}\PYG{p}{(}\PYG{n+nx}{data}\PYG{p}{);}
+                \PYG{p}{\PYGZcb{}}
+            \PYG{p}{\PYGZcb{});}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

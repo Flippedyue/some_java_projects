@@ -1,0 +1,26 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+    \PYG{k+kd}{public} \PYG{k+kd}{static} \PYG{k+kd}{final} \PYG{n}{String} \PYG{n}{CONTENTS} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}contents\PYGZdq{}}\PYG{o}{;}
+    \PYG{c+c1}{// Field名：正文内容}
+    \PYG{k+kd}{public} \PYG{k+kd}{static} \PYG{k+kd}{final} \PYG{n}{String} \PYG{n}{SENDER} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}sender\PYGZdq{}}\PYG{o}{;}
+    \PYG{c+c1}{// Field名：发件人}
+    \PYG{k+kd}{public} \PYG{k+kd}{static} \PYG{k+kd}{final} \PYG{n}{String} \PYG{n}{RECEIVERS} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}receivers\PYGZdq{}}\PYG{o}{;}
+    \PYG{c+c1}{// Field名：收件人}
+    \PYG{k+kd}{public} \PYG{k+kd}{static} \PYG{k+kd}{final} \PYG{n}{String} \PYG{n}{SUBJECT} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}subject\PYGZdq{}}\PYG{o}{;}
+    \PYG{c+c1}{// Field名：标题}
+    \PYG{k+kd}{public} \PYG{k+kd}{static} \PYG{k+kd}{final} \PYG{n}{String} \PYG{n}{FILE\PYGZus{}PATH} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}fullPath\PYGZdq{}}\PYG{o}{;}
+    \PYG{c+c1}{// Field名：邮件路径}
+    \PYG{k+kd}{public} \PYG{k+kd}{static} \PYG{k+kd}{final} \PYG{n}{String} \PYG{n}{DATE} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}date\PYGZdq{}}\PYG{o}{;}
+    \PYG{c+c1}{// Field名：发送日期}
+    \PYG{k+kd}{public} \PYG{k+kd}{static} \PYG{k+kd}{final} \PYG{n}{String} \PYG{n}{DIR} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}./test\PYGZhy{}files/\PYGZdq{}}\PYG{o}{;}
+    \PYG{c+c1}{// 索引所在目录}
+    \PYG{k+kd}{public} \PYG{k+kd}{static} \PYG{k+kd}{final} \PYG{n}{String} \PYG{n}{DATA\PYGZus{}DIR} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}./test\PYGZhy{}files/docs\PYGZdq{}}\PYG{o}{;}
+    \PYG{c+c1}{// 被索引的文件所在根目录}
+    \PYG{k+kd}{public} \PYG{k+kd}{static} \PYG{k+kd}{final} \PYG{n}{String} \PYG{n}{TRASH\PYGZus{}DIR} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}./trashcan/\PYGZdq{}}\PYG{o}{;}
+    \PYG{c+c1}{// 垃圾邮件记录所在目录}
+    \PYG{k+kd}{public} \PYG{k+kd}{static} \PYG{k+kd}{final} \PYG{n}{String} \PYG{n}{ILLEGAL\PYGZus{}BIN} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}illegal\PYGZus{}files.txt\PYGZdq{}}\PYG{o}{;}
+    \PYG{c+c1}{// 记录不合法邮件路径的txt文件名}
+    \PYG{k+kd}{public} \PYG{k+kd}{static} \PYG{k+kd}{final} \PYG{n}{String} \PYG{n}{DELETED\PYGZus{}BIN} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}deleted\PYGZus{}files.txt\PYGZdq{}}\PYG{o}{;}
+    \PYG{c+c1}{// 记录被删除不完整的邮件路径的txt文件名}
+    \PYG{k+kd}{public} \PYG{k+kd}{static} \PYG{k+kd}{final} \PYG{n}{String} \PYG{n}{DRAFT\PYGZus{}BIN} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}drafts.txt\PYGZdq{}}\PYG{o}{;}
+    \PYG{c+c1}{// 记录草稿邮件路径的txt文件名}
+\end{Verbatim}

@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n}{jdbc}\PYG{o}{.}\PYG{n+na}{driver}\PYG{o}{=}\PYG{n}{com}\PYG{o}{.}\PYG{n+na}{mysql}\PYG{o}{.}\PYG{n+na}{jdbc}\PYG{o}{.}\PYG{n+na}{Driver}
+\PYG{err}{\PYGZsh{}} \PYG{n}{如果使用mysql8}\PYG{l+m+mf}{.0}\PYG{o}{+}\PYG{err}{，}\PYG{n}{需要增加时区的配置}
+\PYG{n}{jdbc}\PYG{o}{.}\PYG{n+na}{url}\PYG{o}{=}\PYG{n}{jdbc}\PYG{o}{:}\PYG{n}{mysql}\PYG{o}{:}\PYG{c+c1}{//localhost:3306/soso? useSSL=true\PYGZam{}useUnicode=true\PYGZam{}characterEncoding=utf8}
+\PYG{n}{jdbc}\PYG{o}{.}\PYG{n+na}{username}\PYG{o}{=}\PYG{n}{root}
+\PYG{n}{jdbc}\PYG{o}{.}\PYG{n+na}{password}\PYG{o}{=}\PYG{l+m+mi}{123456}
+\end{Verbatim}

@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+    \PYG{k+kd}{private} \PYG{k+kd}{static} \PYG{k+kt}{int} \PYG{n}{count} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{o}{;} \PYG{c+c1}{// 索引邮件数量}
+    \PYG{k+kd}{private} \PYG{n}{IndexWriter} \PYG{n}{writer}\PYG{o}{;} \PYG{c+c1}{// 索引器}
+    \PYG{k+kd}{private} \PYG{n}{List}\PYG{o}{\PYGZlt{}}\PYG{n}{String}\PYG{o}{\PYGZgt{}} \PYG{n}{illegal\PYGZus{}addr\PYGZus{}email}\PYG{o}{;} \PYG{c+c1}{// 不合法邮件列表}
+    \PYG{k+kd}{private} \PYG{n}{List}\PYG{o}{\PYGZlt{}}\PYG{n}{String}\PYG{o}{\PYGZgt{}} \PYG{n}{deleted\PYGZus{}email}\PYG{o}{;} \PYG{c+c1}{// 已删除邮件列表}
+    \PYG{k+kd}{private} \PYG{n}{List}\PYG{o}{\PYGZlt{}}\PYG{n}{String}\PYG{o}{\PYGZgt{}} \PYG{n}{draft\PYGZus{}email}\PYG{o}{;} \PYG{c+c1}{// 草稿邮件列表}
+\end{Verbatim}

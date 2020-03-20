@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n}{TopDocs} \PYG{n}{hits} \PYG{o}{=} \PYG{n}{indexSearcher}\PYG{o}{.}\PYG{n+na}{search}\PYG{o}{(}\PYG{n}{query}\PYG{o}{,} \PYG{l+m+mi}{10}\PYG{o}{);}
+\end{Verbatim}

@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+    \PYG{n}{Analyzer} \PYG{n}{analyzer} \PYG{o}{=} \PYG{k}{new} \PYG{n}{StandardAnalyzer}\PYG{o}{();}
+    \PYG{c+c1}{// 分词器}
+    \PYG{n}{Directory} \PYG{n}{directory} \PYG{o}{=} \PYG{n}{FSDirectory}\PYG{o}{.}\PYG{n+na}{open}\PYG{o}{(}\PYG{n}{Paths}\PYG{o}{.}\PYG{n+na}{get}\PYG{o}{(}\PYG{n}{indexDir}\PYG{o}{));}
+    \PYG{c+c1}{// 索引存储目录}
+    \PYG{n}{IndexReader} \PYG{n}{indexReader} \PYG{o}{=} \PYG{n}{DirectoryReader}\PYG{o}{.}\PYG{n+na}{open}\PYG{o}{(}\PYG{n}{directory}\PYG{o}{);}
+    \PYG{c+c1}{// 索引读取器}
+    \PYG{n}{IndexSearcher} \PYG{n}{indexSearcher} \PYG{o}{=} \PYG{k}{new} \PYG{n}{IndexSearcher}\PYG{o}{(}\PYG{n}{indexReader}\PYG{o}{);}
+    \PYG{c+c1}{// 索引搜索器}
+\end{Verbatim}

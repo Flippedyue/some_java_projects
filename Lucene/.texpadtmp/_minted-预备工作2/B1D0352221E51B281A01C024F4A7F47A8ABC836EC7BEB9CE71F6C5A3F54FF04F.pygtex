@@ -1,0 +1,21 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k}{for} \PYG{o}{(}\PYG{n}{String} \PYG{n}{choice}\PYG{o}{:} \PYG{n}{choices}\PYG{o}{)} \PYG{o}{\PYGZob{}}
+    \PYG{k}{if} \PYG{o}{(}\PYG{n}{choice}\PYG{o}{.}\PYG{n+na}{equals}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}5\PYGZdq{}}\PYG{o}{))} \PYG{o}{\PYGZob{}}
+        \PYG{n}{System}\PYG{o}{.}\PYG{n+na}{out}\PYG{o}{.}\PYG{n+na}{println}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}请输入想要搜索的时间下限和时间上限，中间以空格隔开\PYGZdq{}}\PYG{o}{);}
+        \PYG{n}{input} \PYG{o}{=} \PYG{n}{scanner}\PYG{o}{.}\PYG{n+na}{nextLine}\PYG{o}{();}
+        \PYG{n}{String}\PYG{o}{[]} \PYG{n}{date} \PYG{o}{=} \PYG{n}{input}\PYG{o}{.}\PYG{n+na}{split}\PYG{o}{(}\PYG{l+s}{\PYGZdq{} \PYGZdq{}}\PYG{o}{);}
+        \PYG{n}{query\PYGZus{}text}\PYG{o}{.}\PYG{n+na}{append}\PYG{o}{(}\PYG{n}{map}\PYG{o}{.}\PYG{n+na}{get}\PYG{o}{(}\PYG{n}{choice}\PYG{o}{)} \PYG{o}{+} \PYG{l+s}{\PYGZdq{}:\PYGZdq{}} \PYG{o}{+} \PYG{l+s}{\PYGZdq{}[\PYGZdq{}} \PYG{o}{+}
+            \PYG{n}{date}\PYG{o}{[}\PYG{l+m+mi}{0}\PYG{o}{]} \PYG{o}{+} \PYG{l+s}{\PYGZdq{} TO \PYGZdq{}} \PYG{o}{+} \PYG{n}{date}\PYG{o}{[}\PYG{n}{date}\PYG{o}{.}\PYG{n+na}{length}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{o}{]} \PYG{o}{+} \PYG{l+s}{\PYGZdq{}] \PYGZdq{}}\PYG{o}{);}
+
+    \PYG{o}{\PYGZcb{}}\PYG{k}{else} \PYG{o}{\PYGZob{}}
+        \PYG{n}{System}\PYG{o}{.}\PYG{n+na}{out}\PYG{o}{.}\PYG{n+na}{println}\PYG{o}{(}\PYG{n}{map}\PYG{o}{.}\PYG{n+na}{get}\PYG{o}{(}\PYG{n}{choice}\PYG{o}{)} \PYG{o}{+} \PYG{l+s}{\PYGZdq{}: 请输入想要查询的词项\PYGZdq{}}\PYG{o}{);}
+        \PYG{n}{input} \PYG{o}{=} \PYG{n}{scanner}\PYG{o}{.}\PYG{n+na}{nextLine}\PYG{o}{();} \PYG{c+c1}{// 邻近词查询}
+        \PYG{c+c1}{// 如果input进去的是个短语：使用邻近词查询的策略。否则使用模糊查询}
+        \PYG{k}{if} \PYG{o}{(}\PYG{n}{query\PYGZus{}text}\PYG{o}{.}\PYG{n+na}{toString}\PYG{o}{().}\PYG{n+na}{split}\PYG{o}{(}\PYG{l+s}{\PYGZdq{} \PYGZdq{}}\PYG{o}{).}\PYG{n+na}{length} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{1}\PYG{o}{)} \PYG{o}{\PYGZob{}}
+            \PYG{n}{input} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}\PYGZbs{}\PYGZdq{}\PYGZdq{}} \PYG{o}{+} \PYG{n}{input} \PYG{o}{+} \PYG{l+s}{\PYGZdq{}\PYGZbs{}\PYGZdq{}\PYGZti{}10 \PYGZdq{}}\PYG{o}{;}
+        \PYG{o}{\PYGZcb{}}\PYG{k}{else} \PYG{o}{\PYGZob{}}
+            \PYG{n}{input} \PYG{o}{=} \PYG{n}{input} \PYG{o}{+} \PYG{l+s}{\PYGZdq{}\PYGZti{}0.8 \PYGZdq{}}\PYG{o}{;}
+        \PYG{o}{\PYGZcb{}}
+        \PYG{n}{query\PYGZus{}text}\PYG{o}{.}\PYG{n+na}{append}\PYG{o}{(}\PYG{n}{map}\PYG{o}{.}\PYG{n+na}{get}\PYG{o}{(}\PYG{n}{choice}\PYG{o}{)} \PYG{o}{+} \PYG{l+s}{\PYGZdq{}:\PYGZdq{}} \PYG{o}{+} \PYG{n}{input}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+\end{Verbatim}

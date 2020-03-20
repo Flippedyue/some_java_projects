@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+    \PYG{k+kd}{private} \PYG{n}{HashMap}\PYG{o}{\PYGZlt{}}\PYG{n}{String}\PYG{o}{,} \PYG{n}{String}\PYG{o}{\PYGZgt{}} \PYG{n}{map}\PYG{o}{;}
+    \PYG{c+c1}{// 数字与Field(索引范围)的对应关系}
+    \PYG{k+kd}{public} \PYG{n}{Scanner} \PYG{n}{scanner}\PYG{o}{;} \PYG{c+c1}{// 输入scanner}
+\end{Verbatim}

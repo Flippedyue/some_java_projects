@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{o}{\PYGZlt{}?}\PYG{n}{xml} \PYG{n}{version}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}1.0\PYGZdq{}} \PYG{n}{encoding}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}UTF\PYGZhy{}8\PYGZdq{}} \PYG{o}{?\PYGZgt{}}
+\PYG{o}{\PYGZlt{}!}\PYG{n}{DOCTYPE} \PYG{n}{configuration}
+        \PYG{n}{PUBLIC} \PYG{l+s}{\PYGZdq{}\PYGZhy{}//mybatis.org//DTD Config 3.0//EN\PYGZdq{}}
+        \PYG{l+s}{\PYGZdq{}http://mybatis.org/dtd/mybatis\PYGZhy{}3\PYGZhy{}config.dtd\PYGZdq{}}\PYG{o}{\PYGZgt{}}
+\PYG{o}{\PYGZlt{}}\PYG{n}{configuration}\PYG{o}{\PYGZgt{}}
+
+\PYG{o}{\PYGZlt{}/}\PYG{n}{configuration}\PYG{o}{\PYGZgt{}}
+\end{Verbatim}

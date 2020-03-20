@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+    \PYG{k+kd}{private} \PYG{n+nf}{Search\PYGZus{}}\PYG{o}{();}
+    \PYG{c+c1}{// 构造函数，初始化map和scanner(调用construct\PYGZus{}map)}
+    \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{search}\PYG{o}{(}\PYG{n}{String} \PYG{n}{indexDir}\PYG{o}{,} \PYG{n}{String}\PYG{o}{[]} \PYG{n}{choices}\PYG{o}{,}
+        \PYG{n}{StringBuffer} \PYG{n}{query\PYGZus{}text}\PYG{o}{)} \PYG{k+kd}{throws} \PYG{n}{Exception}\PYG{o}{;}
+    \PYG{c+c1}{// 构建搜索器，检索内容，输出匹配项}
+    \PYG{k+kd}{private} \PYG{k+kt}{void} \PYG{n+nf}{construct\PYGZus{}map}\PYG{o}{();}
+    \PYG{c+c1}{// 构造对应关系map}
+    \PYG{k+kd}{private} \PYG{n}{StringBuffer} \PYG{n+nf}{deal\PYGZus{}query}\PYG{o}{(}\PYG{n}{String}\PYG{o}{[]} \PYG{n}{choices}\PYG{o}{);}
+    \PYG{c+c1}{// 对查询的内容进行特殊处理}
+    \PYG{k+kd}{public} \PYG{k+kd}{static} \PYG{k+kt}{void} \PYG{n+nf}{main}\PYG{o}{(}\PYG{n}{String}\PYG{o}{[]} \PYG{n}{args}\PYG{o}{);}
+    \PYG{c+c1}{// 主函数}
+\end{Verbatim}

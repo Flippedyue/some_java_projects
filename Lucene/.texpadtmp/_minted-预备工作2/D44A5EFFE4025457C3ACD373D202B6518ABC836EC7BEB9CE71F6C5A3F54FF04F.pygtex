@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n}{dateFormat}\PYG{o}{.}\PYG{n+na}{setTimeZone}\PYG{o}{(}\PYG{n}{TimeZone}\PYG{o}{.}\PYG{n+na}{getTimeZone}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}GMT+08:00\PYGZdq{}}\PYG{o}{));}
+\end{Verbatim}

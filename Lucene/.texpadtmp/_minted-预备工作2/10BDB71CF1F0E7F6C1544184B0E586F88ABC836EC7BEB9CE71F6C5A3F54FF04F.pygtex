@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n}{String}\PYG{o}{[]} \PYG{n}{fields} \PYG{o}{=} \PYG{k}{new} \PYG{n}{String}\PYG{o}{[}\PYG{n}{choices}\PYG{o}{.}\PYG{n+na}{length}\PYG{o}{];}
+\PYG{k}{for} \PYG{o}{(}\PYG{k+kt}{int} \PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{o}{;} \PYG{n}{i} \PYG{o}{\PYGZlt{}} \PYG{n}{choices}\PYG{o}{.}\PYG{n+na}{length}\PYG{o}{;} \PYG{n}{i}\PYG{o}{++)} \PYG{o}{\PYGZob{}}
+    \PYG{n}{fields}\PYG{o}{[}\PYG{n}{i}\PYG{o}{]} \PYG{o}{=} \PYG{n}{map}\PYG{o}{.}\PYG{n+na}{get}\PYG{o}{(}\PYG{n}{choices}\PYG{o}{[}\PYG{n}{i}\PYG{o}{]);}
+    \PYG{o}{\PYGZcb{}}
+\PYG{c+c1}{// fields里存有之前choice对于的Field名}
+\PYG{n}{QueryParser} \PYG{n}{queryParser} \PYG{o}{=} \PYG{k}{new} \PYG{n}{MultiFieldQueryParser}\PYG{o}{(}\PYG{n}{fields}\PYG{o}{,} \PYG{n}{analyzer}\PYG{o}{);}
+\PYG{n}{Query} \PYG{n}{query} \PYG{o}{=} \PYG{n}{queryParser}\PYG{o}{.}\PYG{n+na}{parse}\PYG{o}{(}\PYG{n}{query\PYGZus{}text}\PYG{o}{.}\PYG{n+na}{toString}\PYG{o}{());}
+\end{Verbatim}

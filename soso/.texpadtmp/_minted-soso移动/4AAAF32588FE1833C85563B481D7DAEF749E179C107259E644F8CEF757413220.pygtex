@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{o}{\PYGZlt{}?}\PYG{n}{xml} \PYG{n}{version}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}1.0\PYGZdq{}} \PYG{n}{encoding}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}UTF\PYGZhy{}8\PYGZdq{}}\PYG{o}{?\PYGZgt{}}
+\PYG{o}{\PYGZlt{}}\PYG{n}{beans} \PYG{n}{xmlns}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}http://www.springframework.org/schema/beans\PYGZdq{}}
+       \PYG{n}{xmlns}\PYG{o}{:}\PYG{n}{xsi}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}http://www.w3.org/2001/XMLSchema\PYGZhy{}instance\PYGZdq{}}
+       \PYG{n}{xsi}\PYG{o}{:}\PYG{n}{schemaLocation}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}http://www.springframework.org/schema/beans}
+\PYG{l+s}{        http://www.springframework.org/schema/beans/spring\PYGZhy{}beans.xsd\PYGZdq{}}\PYG{o}{\PYGZgt{}}
+
+\PYG{o}{\PYGZlt{}/}\PYG{n}{beans}\PYG{o}{\PYGZgt{}}
+\end{Verbatim}

@@ -1,0 +1,22 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n+nt}{\PYGZlt{}build\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}resources\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}resource\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}directory\PYGZgt{}}src/main/java\PYG{n+nt}{\PYGZlt{}/directory\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}includes\PYGZgt{}}
+                \PYG{n+nt}{\PYGZlt{}include\PYGZgt{}}**/*.properties\PYG{n+nt}{\PYGZlt{}/include\PYGZgt{}}
+                \PYG{n+nt}{\PYGZlt{}include\PYGZgt{}}**/*.xml\PYG{n+nt}{\PYGZlt{}/include\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}/includes\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}filtering\PYGZgt{}}false\PYG{n+nt}{\PYGZlt{}/filtering\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}/resource\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}resource\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}directory\PYGZgt{}}src/main/resources\PYG{n+nt}{\PYGZlt{}/directory\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}includes\PYGZgt{}}
+                \PYG{n+nt}{\PYGZlt{}include\PYGZgt{}}**/*.properties\PYG{n+nt}{\PYGZlt{}/include\PYGZgt{}}
+                \PYG{n+nt}{\PYGZlt{}include\PYGZgt{}}**/*.xml\PYG{n+nt}{\PYGZlt{}/include\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}/includes\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}filtering\PYGZgt{}}false\PYG{n+nt}{\PYGZlt{}/filtering\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}/resource\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}/resources\PYGZgt{}}
+\PYG{n+nt}{\PYGZlt{}/build\PYGZgt{}}
+\end{Verbatim}

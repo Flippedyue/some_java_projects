@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{p}\PYG{p}{\PYGZgt{}}
+    \PYG{p}{\PYGZlt{}}\PYG{n+nt}{input} \PYG{n+na}{id}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}cardNumber\PYGZdq{}} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}form\PYGZhy{}control\PYGZdq{}} \PYG{n+na}{type}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}text\PYGZdq{}} \PYG{n+na}{placeholder}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}cardNumber\PYGZdq{}}\PYG{n+na}{name}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}cardNumber\PYGZdq{}} \PYG{n+na}{onblur}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}a1()\PYGZdq{}} \PYG{n+na}{required}\PYG{p}{\PYGZgt{}}
+    \PYG{p}{\PYGZlt{}}\PYG{n+nt}{span} \PYG{n+na}{id}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}userInfo\PYGZdq{}}\PYG{p}{\PYGZgt{}\PYGZlt{}/}\PYG{n+nt}{span}\PYG{p}{\PYGZgt{}}
+\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{p}\PYG{p}{\PYGZgt{}}
+\end{Verbatim}

@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+    \PYG{k+kd}{public} \PYG{n+nf}{Index\PYGZus{}}\PYG{o}{(}\PYG{n}{String} \PYG{n}{indexDir}\PYG{o}{)} \PYG{k+kd}{throws} \PYG{n}{IOException}\PYG{o}{\PYGZob{}\PYGZcb{};}
+    \PYG{c+c1}{// 初始化}
+    \PYG{k+kd}{public} \PYG{n}{String} \PYG{n+nf}{get\PYGZus{}fileStream}\PYG{o}{(}\PYG{n}{File} \PYG{n}{file}\PYG{o}{)\PYGZob{}\PYGZcb{};}
+    \PYG{c+c1}{// 获取文件流(String)}
+    \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{index\PYGZus{}doc}\PYG{o}{(}\PYG{n}{File} \PYG{n}{file}\PYG{o}{)} \PYG{k+kd}{throws} \PYG{n}{Exception}\PYG{o}{\PYGZob{}\PYGZcb{};}
+    \PYG{c+c1}{// 为单个文件构建索引}
+    \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{index\PYGZus{}docs}\PYG{o}{(}\PYG{n}{List}\PYG{o}{\PYGZlt{}}\PYG{n}{File}\PYG{o}{\PYGZgt{}} \PYG{n}{fileList}\PYG{o}{)} \PYG{k+kd}{throws} \PYG{n}{Exception}\PYG{o}{\PYGZob{}\PYGZcb{};}
+    \PYG{c+c1}{// 为文件列表构建索引}
+    \PYG{k+kd}{public} \PYG{k+kt}{int} \PYG{n+nf}{index\PYGZus{}construct}\PYG{o}{(}\PYG{n}{String} \PYG{n}{dataDir}\PYG{o}{)} \PYG{k+kd}{throws} \PYG{n}{Exception}\PYG{o}{\PYGZob{}\PYGZcb{};}
+    \PYG{c+c1}{// 构建索引主函数}
+    \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{close}\PYG{o}{()} \PYG{k+kd}{throws} \PYG{n}{IOException}\PYG{o}{\PYGZob{}\PYGZcb{};}
+    \PYG{c+c1}{// 关闭写索引}
+    \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{record\PYGZus{}trash\PYGZus{}email}\PYG{o}{(}\PYG{n}{List}\PYG{o}{\PYGZlt{}}\PYG{n}{String}\PYG{o}{\PYGZgt{}} \PYG{n}{files}\PYG{o}{,}
+          \PYG{n}{String} \PYG{n}{filename}\PYG{o}{)} \PYG{k+kd}{throws} \PYG{n}{IOException}\PYG{o}{\PYGZob{}\PYGZcb{};}
+    \PYG{c+c1}{// 记录垃圾邮件到txt文件}
+    \PYG{k+kd}{public} \PYG{k+kd}{static} \PYG{k+kt}{void} \PYG{n+nf}{main}\PYG{o}{(}\PYG{n}{String}\PYG{o}{[]} \PYG{n}{args}\PYG{o}{)\PYGZob{}\PYGZcb{};}
+    \PYG{c+c1}{// 主函数}
+\end{Verbatim}

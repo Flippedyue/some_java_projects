@@ -1,0 +1,26 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+    \PYG{n+nd}{@RequestMapping}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}/a3\PYGZdq{}}\PYG{o}{)}
+    \PYG{k+kd}{public} \PYG{n}{String} \PYG{n+nf}{a3}\PYG{o}{(}\PYG{n}{String} \PYG{n}{cardNumber}\PYG{o}{,} \PYG{n}{String} \PYG{n}{password}\PYG{o}{,} \PYG{n}{HttpSession} \PYG{n}{session}\PYG{o}{)} \PYG{o}{\PYGZob{}}
+        \PYG{n}{MobileCard} \PYG{n}{card} \PYG{o}{=} \PYG{k+kc}{null}\PYG{o}{;}
+        \PYG{n}{String} \PYG{n}{msg} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}\PYGZdq{}}\PYG{o}{;}
+        \PYG{k}{if} \PYG{o}{(}\PYG{n}{cardNumber} \PYG{o}{!=} \PYG{k+kc}{null}\PYG{o}{)} \PYG{o}{\PYGZob{}}
+            \PYG{n}{card} \PYG{o}{=} \PYG{n}{mobileCardService}\PYG{o}{.}\PYG{n+na}{getMobileCard}\PYG{o}{(}\PYG{n}{cardNumber}\PYG{o}{);}
+        \PYG{o}{\PYGZcb{}}
+
+        \PYG{k}{if} \PYG{o}{(}\PYG{n}{card} \PYG{o}{==} \PYG{k+kc}{null}\PYG{o}{)} \PYG{o}{\PYGZob{}}
+            \PYG{n}{msg} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}号码错误！\PYGZdq{}}\PYG{o}{;}
+        \PYG{o}{\PYGZcb{}} \PYG{k}{else} \PYG{o}{\PYGZob{}}
+            \PYG{n}{msg} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}OK\PYGZdq{}}\PYG{o}{;}
+        \PYG{o}{\PYGZcb{}}
+
+        \PYG{k}{if} \PYG{o}{(}\PYG{n}{password} \PYG{o}{!=} \PYG{k+kc}{null}\PYG{o}{)} \PYG{o}{\PYGZob{}}
+            \PYG{k}{if} \PYG{o}{(}\PYG{n}{card} \PYG{o}{==} \PYG{k+kc}{null} \PYG{o}{||} \PYG{o}{!}\PYG{n}{card}\PYG{o}{.}\PYG{n+na}{getPassWord}\PYG{o}{().}\PYG{n+na}{equals}\PYG{o}{(}\PYG{n}{password}\PYG{o}{))} \PYG{o}{\PYGZob{}}
+                \PYG{n}{msg} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}密码错误!\PYGZdq{}}\PYG{o}{;}
+            \PYG{o}{\PYGZcb{}} \PYG{k}{else} \PYG{o}{\PYGZob{}}
+                \PYG{n}{msg} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}OK\PYGZdq{}}\PYG{o}{;}
+                \PYG{n}{session}\PYG{o}{.}\PYG{n+na}{setAttribute}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}cardUser\PYGZdq{}}\PYG{o}{,} \PYG{n}{card}\PYG{o}{);}
+            \PYG{o}{\PYGZcb{}}
+        \PYG{o}{\PYGZcb{}}
+        \PYG{k}{return} \PYG{n}{msg}\PYG{o}{;}
+    \PYG{o}{\PYGZcb{}}
+\end{Verbatim}

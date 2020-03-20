@@ -1,0 +1,18 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{o}{\PYGZlt{}}\PYG{n}{configuration}\PYG{o}{\PYGZgt{}}
+    \PYG{o}{\PYGZlt{}!\PYGZhy{}\PYGZhy{}}\PYG{n}{配置数据源}\PYG{err}{，}\PYG{n}{交给Spring去做}\PYG{o}{\PYGZhy{}\PYGZhy{}\PYGZgt{}}
+    \PYG{o}{\PYGZlt{}}\PYG{n}{typeAliases}\PYG{o}{\PYGZgt{}}
+        \PYG{o}{\PYGZlt{}}\PYG{k+kn}{package} \PYG{n+nn}{name}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}com.kuang.pojo\PYGZdq{}}\PYG{o}{/\PYGZgt{}}
+    \PYG{o}{\PYGZlt{}/}\PYG{n}{typeAliases}\PYG{o}{\PYGZgt{}}
+    \PYG{o}{\PYGZlt{}!\PYGZhy{}\PYGZhy{}}\PYG{n}{配置类型处理器}\PYG{o}{\PYGZhy{}\PYGZhy{}\PYGZgt{}}
+    \PYG{o}{\PYGZlt{}}\PYG{n}{typeHandlers}\PYG{o}{\PYGZgt{}}
+        \PYG{o}{\PYGZlt{}}\PYG{n}{typeHandler} \PYG{n}{handler}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}com.kuang.utils.typehandler.EnumRankTypeHandler\PYGZdq{}} \PYG{n}{javaType}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}com.kuang.pojo.enums.Rank\PYGZdq{}}\PYG{o}{/\PYGZgt{}}
+      \PYG{o}{...}
+    \PYG{o}{\PYGZlt{}!\PYGZhy{}\PYGZhy{}}\PYG{n}{配置mapper映射}\PYG{o}{\PYGZhy{}\PYGZhy{}\PYGZgt{}}
+    \PYG{o}{\PYGZlt{}}\PYG{n}{mappers}\PYG{o}{\PYGZgt{}}
+        \PYG{o}{\PYGZlt{}}\PYG{n}{mapper} \PYG{n}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}com.kuang.dao.MobileCardMapper\PYGZdq{}}\PYG{o}{/\PYGZgt{}}
+        \PYG{o}{...}
+    \PYG{o}{\PYGZlt{}/}\PYG{n}{mappers}\PYG{o}{\PYGZgt{}}
+
+\PYG{o}{\PYGZlt{}/}\PYG{n}{configuration}\PYG{o}{\PYGZgt{}}
+\end{Verbatim}

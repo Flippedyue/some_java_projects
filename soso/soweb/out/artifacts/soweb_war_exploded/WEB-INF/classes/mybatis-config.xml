@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+
+    <!--配置数据源，交给Spring去做-->
+    <typeAliases>
+        <package name="com.kuang.pojo"/>
+    </typeAliases>
+
+    <typeHandlers>
+        <typeHandler handler="com.kuang.utils.typehandler.EnumRankTypeHandler" javaType="com.kuang.pojo.enums.Rank"/>
+        <typeHandler handler="com.kuang.utils.typehandler.EnumStatusTypeHandler" javaType="com.kuang.pojo.enums.Status"/>
+    </typeHandlers>
+
+    <mappers>
+        <mapper class="com.kuang.dao.MobileCardMapper"/>
+        <mapper class="com.kuang.dao.ConsumInfoMapper"/>
+        <mapper class="com.kuang.dao.SceneMapper"/>
+    </mappers>
+
+</configuration>

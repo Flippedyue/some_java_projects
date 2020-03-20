@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+    \PYG{n}{String} \PYG{n}{to\PYGZus{}str} \PYG{o}{=}  \PYG{n}{StringUtils}\PYG{o}{.}\PYG{n+na}{strip}
+        \PYG{o}{(}\PYG{n}{Arrays}\PYG{o}{.}\PYG{n+na}{toString}\PYG{o}{(}\PYG{n}{message}\PYG{o}{.}\PYG{n+na}{getHeader}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}To\PYGZdq{}}\PYG{o}{)),}\PYG{l+s}{\PYGZdq{}[]\PYGZdq{}}\PYG{o}{);}
+    \PYG{k}{if} \PYG{o}{(}\PYG{n}{to\PYGZus{}str}\PYG{o}{.}\PYG{n+na}{equals}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}null\PYGZdq{}}\PYG{o}{))} \PYG{o}{\PYGZob{}}
+        \PYG{n}{draft\PYGZus{}email}\PYG{o}{.}\PYG{n+na}{add}\PYG{o}{(}\PYG{n}{file}\PYG{o}{.}\PYG{n+na}{getCanonicalPath}\PYG{o}{());}
+        \PYG{o}{\PYGZcb{}}
+\end{Verbatim}
